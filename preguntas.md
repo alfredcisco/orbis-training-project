@@ -24,3 +24,5 @@ me permite interactuar dentor del contenedor
 sirve para ingresar a la raiz del contenedor
 #¿Cuál es la diferencia entre docker ps y docker ps -a?
 docker ps: lista los contenedores que estan levantados, y docker ps -a : lista todos los contenedores sin excepcion
+#Al construir un contenedor, mostrar el contenido de un archivo
+docker run -it alfredcisco/orbis-training-docker:0.2.0 cat ./app/preguntas.md
